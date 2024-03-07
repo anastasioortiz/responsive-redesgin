@@ -107,12 +107,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    /* z-index: 1000; */
   }
 
   #products-section{
     background-color: #EB9643;
-    z-index: 0;
+    /* z-index: 0; */
 
 
   }
@@ -157,7 +157,7 @@ body {
 
   #Coffees{
     background-color: #A85B39;
-    z-index: 1;
+    /* z-index: 1; */
     margin-left:5%;
     margin-right:2.5%;
 
@@ -165,7 +165,7 @@ body {
 
   #Cereals{
     background-color: #843220;
-    z-index: 1;
+    /* z-index: 1; */
     margin-left:2.5%;
     margin-right:5%;
   }
