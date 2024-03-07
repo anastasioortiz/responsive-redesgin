@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding-top: 70px;
+  }
+  
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 8%;
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img{
+    max-height: 20vh;
+  }
+  
+  .navbar{
+    background-color: #1C4634;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+
+
+  h2{
+    color: #CF020A;
+    font:36px;
+    text-decoration: underline;
+    text-decoration: bold;
+    font-family: "inria-serif";
+    margin-top: 0%;
+  }
+
+  h3{
+    color: #561900;
+    font:24px;
+    text-decoration: bold;
+    font-family: "inria-serif";
+  }
+
+  p{
+    color: #000000;
+    font:12px;
+    font-family: "inria-serif";
+  }
+
+  section{
+    margin-bottom: 0;
+    margin-top:0;
+  }
+
+  #about-us-section{
+    background-color: #56180020;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #product-box{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .productImage{
+    background-color: transparent;
+    width: 100%;
+    max-height: 70%;
+  }
+
+  .card{
+    background-color: #D8B214;
+    padding:1%;
+    margin:2%;
+    opacity: 1;
+    border-radius: 10%;
+    border-color: navy;
+    width: 20%;
+    height:75%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+
+  #products-section{
+    background-color: #EB9643;
+    z-index: 0;
+
+
+  }
+
+  .product-subsection{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width:45%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+  
+  }
+
+  .cardholder{
+    display: flex;;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #product-headers{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+  }
+
+  h4{
+    width: 40%;
+  }
+
+  .product-header{
+    max-height: 10%;
+    display: flex;
+    color: #2b0c00;
+    font-size: 36px;
+    justify-content: center;
+    font-family: "Inria Serif";
+    text-decoration: bold;
+
+  }
+
+  #Coffees{
+    background-color: #A85B39;
+    z-index: 1;
+    margin-left:5%;
+    margin-right:2.5%;
+
+  }
+
+  #Cereals{
+    background-color: #843220;
+    z-index: 1;
+    margin-left:2.5%;
+    margin-right:5%;
+  }
+
+  #product-header{
+    margin-left: 5%;
+    
+  }
+
+  #blog-section{
+    background-color: #EEE8E5;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0;
+  }
+
+  #news-carousel{
+    display:flex;
+    scroll-behavior: auto;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+
+  }
+
+  .article{
+    display: flex ;
+    flex-direction: column;
+    min-width: 30%;
+    background-color: #CCC6C3;
+    margin-right: 5%;
+    height:fit-content;
+    padding-bottom: 2%;
+    padding-right:2%;
+
+  }
+
+  .news-header{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #1C4634;
+    font-family: "Inria Serif";
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .news-subheader{
+    margin-top: 2px;
+    margin-left: 10px;
+    color: #387F4E;
+    font-family: "Inria Serif";
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .news-body{
+    margin-top: 2px;
+    margin-left: 10px;
+    font-family: "Inria Serif";
+    font-size: 12px;
+  }
+  
+  #contact-subheader{
+    font-family: "Inria Serif";
+    font-size: 20px;
+  }
+
+  .contact-body{
+    color: #802D1D;
+    font-weight: bold;
+  }
+
+  #contact-us{
+    
+    padding-left: 5%;
+    background-color: #EB9643;
+  }
+
+  #contact-header{
+    height: fit-content;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+
