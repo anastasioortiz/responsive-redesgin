@@ -44,7 +44,7 @@ body {
   }
   
   .navbar a:hover {
-    background-color: #555;
+      text-decoration: underline;
   }
 
 
@@ -76,6 +76,7 @@ body {
   }
 
   #about-us-section{
+    padding-top: 5%;
     background-color: #56180020;
     padding-left: 5%;
     padding-right: 5%;
